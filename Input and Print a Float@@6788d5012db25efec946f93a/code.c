@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    float f;
-    f = 5.77;
-    printf("%f", &f);
+    float n;
+    scanf("%f,&n")
+    printf("%f",n);
     return 0;
 
 }
