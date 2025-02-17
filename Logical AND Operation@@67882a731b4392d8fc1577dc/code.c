@@ -5,7 +5,7 @@ int main() {
     
     if (scanf("%d %d", &a, &b) != 2) {
         printf("Invalid input\n");
-        return 1;
+        
     }
 
     if (a > 0 && b > 0) {
