@@ -3,11 +3,12 @@ int main(){
     int a, b;
 
     if(scanf("%d %d", &a, &b) != 2){
-        printf("Invalid Input\n");
+        printf("Invalid input\n");
+        return 1;
 
     }
 
-    if (a > 0 || b > 0){
+    if (a > 0 || b > 0) {
         printf("True\n");
 
     } else {
